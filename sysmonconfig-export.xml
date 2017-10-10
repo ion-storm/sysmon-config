@@ -574,6 +574,8 @@
 			<ImageLoaded condition="is">C:\Windows\System32\hid.dll</ImageLoaded> <!--MimiKatz Detection Credit: @Cyb3rWard0g: https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for.html -->
 			<ImageLoaded condition="is">C:\Windows\System32\samlib.dll</ImageLoaded> <!--MimiKatz Detection Credit: @Cyb3rWard0g: https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for.html -->
 			<ImageLoaded condition="is">C:\Windows\System32\vaultcli.dll</ImageLoaded> <!--MimiKatz Detection Credit: @Cyb3rWard0g: https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for.html -->
+			<ImageLoaded condition="is">C:\Windows\System32\crypt32.dll</ImageLoaded>
+			<ImageLoaded condition="is">C:\Windows\System32\advapi32.dll</ImageLoaded>
 			<ImageLoaded condition="is">WMINet_Utils.dll</ImageLoaded> <!--MimiKatz Detection Credit: @Cyb3rWard0g: https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for.html -->
 			<ImageLoaded condition="contains">\Temp\</ImageLoaded>
 			<!-- END: Mimikatz Detection -->
